@@ -26,7 +26,7 @@ header .logo {
 }
 
 main {
-    padding: 10px;
+    padding: 20px;
 }
 
 input {
@@ -44,6 +44,7 @@ button {
     height: 200px;
     background: rgb(51, 10, 253);
     color: white;
+    border-radius: 25px;
     text-align: center;
 }
 
@@ -59,6 +60,24 @@ h2 {
 }
 
 .name-display {
+    padding: 20px;
+    background: white;
+    color: black;
+}
+
+
+
+.food-tag {
+    margin-top: 20px;
+    width: 370px;
+    height: 200px;
+    background: rgb(14, 129, 98);
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.food-display {
     padding: 20px;
     background: white;
     color: black;
