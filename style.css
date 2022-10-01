@@ -10,7 +10,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    padding: 20px;
+    padding: 10px;
     height: 60px;
 
     display: flex;
@@ -26,5 +26,40 @@ header .logo {
 }
 
 main {
+    padding: 10px;
+}
+
+input {
+    height: 29px;
+}
+
+button {
+    height:35px
+}
+
+
+.name-tag {
+    margin-top: 20px;
+    width: 370px;
+    height: 200px;
+    background: rgb(51, 10, 253);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin:0;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+.intro {
+    margin: 0;
+}
+
+.name-display {
     padding: 20px;
+    background: white;
+    color: black;
 }
