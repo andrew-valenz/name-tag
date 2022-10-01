@@ -12,9 +12,9 @@ nameDisplay.textContent = 'Andres';
 nameDisplay.classList.add('purple');
 
 const updateBtn = document.getElementById('update-button');
-updateBtn.addEventListener('click'. () => {
+updateBtn.addEventListener('click', () => {
         console.log('i am clicking the button');
         const nameInput = document.getElementById('name-input');
         // set display to the value from the input
-        nameDisplay.textContent = // the value from the input
+        nameDisplay.textContent = nameInput.value;
 });
