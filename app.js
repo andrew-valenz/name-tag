@@ -14,15 +14,15 @@ nameDisplay.classList.add('purple');
 const updateBtn = document.getElementById('update-button');
 updateBtn.addEventListener('click', () => {
     console.log('i am clicking the button');
-    const nameInput = document.getElementById('name-input');
-    nameDisplay.textContent = nameInput.value;
+    const foodInput = document.getElementById('food-input');
+    foodDisplay.textContent = foodInput.value;
 
 
 
 const nameDisplay = document.getElementById('food-display');
 console.log(foodDisplay);
     
-nameDisplay.textContent = 'Ramen';
+foodDisplay.textContent = 'Ramen';
     
 const updateBtn = document.getElementById('nomNomNom-button');
  updateBtn.addEventListener('click', () => {
